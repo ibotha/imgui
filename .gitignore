@@ -1,8 +1,4 @@
-# Directories
-.vs/
 bin/
 bin-int/
-
- # Files
-*.user
-Makefile 
+Makefile
+*.vcxproj
