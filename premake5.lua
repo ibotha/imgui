@@ -5,11 +5,17 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	includedirs
+	{
+		""
+	}
+
 	files
 	{
 		"imconfig.h",
 		"imgui.h",
 		"imgui.cpp",
+		"misc/cpp/imgui_stdlib.cpp",
 		"imgui_draw.cpp",
 		"imgui_internal.h",
 		"imgui_widgets.cpp",
